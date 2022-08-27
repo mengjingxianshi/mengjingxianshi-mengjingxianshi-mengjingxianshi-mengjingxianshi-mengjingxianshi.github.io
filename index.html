@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+
+	</head>
+	<body>
+		<video id="v1" autoplay muted loop style="width: 100%">
+
+			<source src="./img/bg4.mp4">
+
+		</video>
+		<div class="box">
+			<div class="title">
+				用户登录
+			</div>
+			<div class="conter">
+				<ul>
+					<li><label>用户名</label><input class="input-txt" type="text"></li>
+					<li><label>密码 </label><input class="input-txt" type="password"></li>
+				</ul>
+				<div class="button">
+					<div class="button-l">
+						登录
+					</div>
+					<div class="button-l">
+						重置
+					</div>
+				</div>
+			</div>
+			<div class="res">
+				<div class="res-button">注册</div>
+			</div>
+		</div>
+		<script>
+			var video = document.getElementById('v1');
+
+			video.playbackRate = 0.5;
+		</script>
+	</body>
+</html>
